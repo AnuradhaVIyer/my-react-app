@@ -158,7 +158,7 @@ Now, students can **access the React application** in a browser using:
 http://<your-public-ip>
 ```
 
-For example, if the public IP is **203.0.113.25**, visit:  
+For example, if the public IP is **203.0.113.26**, visit:  
 
 ```
 http://203.0.113.25
