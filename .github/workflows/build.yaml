@@ -1,8 +1,8 @@
 name: React Build
 
 on:
-  push:
-    branches: [ "main" ]
+  #push:
+    #branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch: # Allows you to run it manually for testing
@@ -29,7 +29,7 @@ jobs:
       - name: Build React app
         run: npm run build
 
-      - name: Calculate codt
+      - name: Calculate cost
         uses: anvean/trim-ci@v1
         if: always()
         with:
